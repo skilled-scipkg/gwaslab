@@ -1,0 +1,472 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "gwaslab",
+  "evidence": {
+    "core_skills": [
+      "gwaslab-examples-and-tutorials",
+      "gwaslab-getting-started",
+      "gwaslab-analysis-and-output",
+      "gwaslab-build-and-install",
+      "gwaslab-simulation-workflows",
+      "gwaslab-inputs-and-modeling"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/gwaslab-examples-and-tutorials.md",
+      "skills/.evidence/gwaslab-getting-started.md",
+      "skills/.evidence/gwaslab-analysis-and-output.md",
+      "skills/.evidence/gwaslab-build-and-install.md",
+      "skills/.evidence/gwaslab-simulation-workflows.md",
+      "skills/.evidence/gwaslab-inputs-and-modeling.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md",
+        "skills/gwaslab-advanced-topics/SKILL.md",
+        "skills/gwaslab-advanced-topics/references/doc_map.md",
+        "skills/gwaslab-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/.evidence/skill_plan.json",
+        "skills/gwaslab-advanced-topics/SKILL.md",
+        "skills/gwaslab-advanced-topics/references/doc_map.md",
+        "skills/gwaslab-advanced-topics/references/source_map.md",
+        "skills/gwaslab-analysis-and-output/SKILL.md",
+        "skills/gwaslab-api-and-scripting/SKILL.md",
+        "skills/gwaslab-api-and-scripting/references/doc_map.md",
+        "skills/gwaslab-api-and-scripting/references/source_map.md",
+        "skills/gwaslab-build-and-install/SKILL.md",
+        "skills/gwaslab-commondata/SKILL.md",
+        "skills/gwaslab-commondata/references/doc_map.md",
+        "skills/gwaslab-commondata/references/source_map.md",
+        "skills/gwaslab-download-reference/SKILL.md",
+        "skills/gwaslab-download-reference/references/doc_map.md",
+        "skills/gwaslab-download-reference/references/source_map.md",
+        "skills/gwaslab-download/SKILL.md",
+        "skills/gwaslab-download/references/doc_map.md",
+        "skills/gwaslab-download/references/source_map.md",
+        "skills/gwaslab-examples-and-tutorials/SKILL.md",
+        "skills/gwaslab-fasta/SKILL.md",
+        "skills/gwaslab-fasta/references/doc_map.md",
+        "skills/gwaslab-fasta/references/source_map.md",
+        "skills/gwaslab-getting-started/SKILL.md",
+        "skills/gwaslab-gtf/SKILL.md",
+        "skills/gwaslab-gtf/references/doc_map.md",
+        "skills/gwaslab-gtf/references/source_map.md",
+        "skills/gwaslab-hapmap3/SKILL.md",
+        "skills/gwaslab-hapmap3/references/doc_map.md",
+        "skills/gwaslab-hapmap3/references/source_map.md",
+        "skills/gwaslab-index/SKILL.md",
+        "skills/gwaslab-inferancestry/SKILL.md",
+        "skills/gwaslab-inferancestry/references/doc_map.md",
+        "skills/gwaslab-inferancestry/references/source_map.md",
+        "skills/gwaslab-inputs-and-modeling/SKILL.md",
+        "skills/gwaslab-reference/SKILL.md",
+        "skills/gwaslab-reference/references/doc_map.md",
+        "skills/gwaslab-reference/references/source_map.md",
+        "skills/gwaslab-reserved-header/SKILL.md",
+        "skills/gwaslab-reserved-header/references/doc_map.md",
+        "skills/gwaslab-reserved-header/references/source_map.md",
+        "skills/gwaslab-simulation-workflows/SKILL.md",
+        "skills/gwaslab-sumstatsobject/SKILL.md",
+        "skills/gwaslab-sumstatsobject/references/doc_map.md",
+        "skills/gwaslab-sumstatsobject/references/source_map.md",
+        "skills/gwaslab-theory-and-methods/SKILL.md",
+        "skills/gwaslab-theory-and-methods/references/doc_map.md",
+        "skills/gwaslab-theory-and-methods/references/source_map.md",
+        "skills/gwaslab-updatelogs/SKILL.md",
+        "skills/gwaslab-updatelogs/references/doc_map.md",
+        "skills/gwaslab-updatelogs/references/source_map.md",
+        "skills/gwaslab-utility-get-lead-novel/SKILL.md",
+        "skills/gwaslab-utility-get-lead-novel/references/doc_map.md",
+        "skills/gwaslab-utility-get-lead-novel/references/source_map.md",
+        "skills/gwaslab-vcf/SKILL.md",
+        "skills/gwaslab-vcf/references/doc_map.md",
+        "skills/gwaslab-vcf/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/gwaslab-commondata/SKILL.md",
+        "skills/gwaslab-commondata/references/doc_map.md",
+        "skills/gwaslab-commondata/references/source_map.md",
+        "skills/gwaslab-download-reference/SKILL.md",
+        "skills/gwaslab-download-reference/references/doc_map.md",
+        "skills/gwaslab-download-reference/references/source_map.md",
+        "skills/gwaslab-download/SKILL.md",
+        "skills/gwaslab-download/references/doc_map.md",
+        "skills/gwaslab-download/references/source_map.md",
+        "skills/gwaslab-fasta/SKILL.md",
+        "skills/gwaslab-fasta/references/doc_map.md",
+        "skills/gwaslab-fasta/references/source_map.md",
+        "skills/gwaslab-gtf/SKILL.md",
+        "skills/gwaslab-gtf/references/doc_map.md",
+        "skills/gwaslab-gtf/references/source_map.md",
+        "skills/gwaslab-hapmap3/SKILL.md",
+        "skills/gwaslab-hapmap3/references/doc_map.md",
+        "skills/gwaslab-hapmap3/references/source_map.md",
+        "skills/gwaslab-inferancestry/SKILL.md",
+        "skills/gwaslab-inferancestry/references/doc_map.md",
+        "skills/gwaslab-inferancestry/references/source_map.md",
+        "skills/gwaslab-reference/SKILL.md",
+        "skills/gwaslab-reference/references/doc_map.md",
+        "skills/gwaslab-reference/references/source_map.md",
+        "skills/gwaslab-reserved-header/SKILL.md",
+        "skills/gwaslab-reserved-header/references/doc_map.md",
+        "skills/gwaslab-reserved-header/references/source_map.md",
+        "skills/gwaslab-sumstatsobject/SKILL.md",
+        "skills/gwaslab-sumstatsobject/references/doc_map.md",
+        "skills/gwaslab-sumstatsobject/references/source_map.md",
+        "skills/gwaslab-theory-and-methods/SKILL.md",
+        "skills/gwaslab-theory-and-methods/references/doc_map.md",
+        "skills/gwaslab-theory-and-methods/references/source_map.md",
+        "skills/gwaslab-updatelogs/SKILL.md",
+        "skills/gwaslab-updatelogs/references/doc_map.md",
+        "skills/gwaslab-updatelogs/references/source_map.md",
+        "skills/gwaslab-utility-get-lead-novel/SKILL.md",
+        "skills/gwaslab-utility-get-lead-novel/references/doc_map.md",
+        "skills/gwaslab-utility-get-lead-novel/references/source_map.md",
+        "skills/gwaslab-vcf/SKILL.md",
+        "skills/gwaslab-vcf/references/doc_map.md",
+        "skills/gwaslab-vcf/references/source_map.md"
+      ],
+      "modified": [
+        "skills/.evidence/skill_plan.json",
+        "skills/gwaslab-analysis-and-output/SKILL.md",
+        "skills/gwaslab-api-and-scripting/SKILL.md",
+        "skills/gwaslab-api-and-scripting/references/doc_map.md",
+        "skills/gwaslab-api-and-scripting/references/source_map.md",
+        "skills/gwaslab-build-and-install/SKILL.md",
+        "skills/gwaslab-examples-and-tutorials/SKILL.md",
+        "skills/gwaslab-getting-started/SKILL.md",
+        "skills/gwaslab-index/SKILL.md",
+        "skills/gwaslab-inputs-and-modeling/SKILL.md",
+        "skills/gwaslab-simulation-workflows/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/gwaslab-advanced-topics/SKILL.md",
+        "skills/gwaslab-advanced-topics/references/source_map.md",
+        "skills/gwaslab-analysis-and-output/references/doc_map.md",
+        "skills/gwaslab-analysis-and-output/references/source_map.md",
+        "skills/gwaslab-api-and-scripting/SKILL.md",
+        "skills/gwaslab-api-and-scripting/references/source_map.md",
+        "skills/gwaslab-build-and-install/references/doc_map.md",
+        "skills/gwaslab-build-and-install/references/source_map.md",
+        "skills/gwaslab-examples-and-tutorials/references/doc_map.md",
+        "skills/gwaslab-examples-and-tutorials/references/source_map.md",
+        "skills/gwaslab-getting-started/references/doc_map.md",
+        "skills/gwaslab-getting-started/references/source_map.md",
+        "skills/gwaslab-index/SKILL.md",
+        "skills/gwaslab-inputs-and-modeling/references/doc_map.md",
+        "skills/gwaslab-inputs-and-modeling/references/source_map.md",
+        "skills/gwaslab-parallel-hpc/SKILL.md",
+        "skills/gwaslab-parallel-hpc/references/doc_map.md",
+        "skills/gwaslab-parallel-hpc/references/source_map.md",
+        "skills/gwaslab-simulation-workflows/references/doc_map.md",
+        "skills/gwaslab-simulation-workflows/references/source_map.md",
+        "skills/gwaslab-troubleshooting/SKILL.md",
+        "skills/gwaslab-troubleshooting/references/doc_map.md",
+        "skills/gwaslab-troubleshooting/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/gwaslab-advanced-topics/SKILL.md",
+        "skills/gwaslab-advanced-topics/references/source_map.md",
+        "skills/gwaslab-analysis-and-output/references/doc_map.md",
+        "skills/gwaslab-analysis-and-output/references/source_map.md",
+        "skills/gwaslab-api-and-scripting/SKILL.md",
+        "skills/gwaslab-api-and-scripting/references/source_map.md",
+        "skills/gwaslab-build-and-install/references/doc_map.md",
+        "skills/gwaslab-build-and-install/references/source_map.md",
+        "skills/gwaslab-examples-and-tutorials/references/doc_map.md",
+        "skills/gwaslab-examples-and-tutorials/references/source_map.md",
+        "skills/gwaslab-getting-started/references/doc_map.md",
+        "skills/gwaslab-getting-started/references/source_map.md",
+        "skills/gwaslab-index/SKILL.md",
+        "skills/gwaslab-inputs-and-modeling/references/doc_map.md",
+        "skills/gwaslab-inputs-and-modeling/references/source_map.md",
+        "skills/gwaslab-parallel-hpc/SKILL.md",
+        "skills/gwaslab-parallel-hpc/references/doc_map.md",
+        "skills/gwaslab-parallel-hpc/references/source_map.md",
+        "skills/gwaslab-simulation-workflows/references/doc_map.md",
+        "skills/gwaslab-simulation-workflows/references/source_map.md",
+        "skills/gwaslab-troubleshooting/SKILL.md",
+        "skills/gwaslab-troubleshooting/references/doc_map.md",
+        "skills/gwaslab-troubleshooting/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Dry-run generator discovery resolved docs/examples/test/src without manual directory overrides.",
+      "Generator script was minimally patched to fix two invalid f-string join expressions that blocked deterministic execution."
+    ],
+    "package_name": "gwaslab",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src"
+    ],
+    "test_dirs": [
+      "test"
+    ],
+    "tutorial_dirs": [
+      "examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab",
+  "run_id": "compile_20260304T225339905278Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "gwaslab-analysis-and-output",
+      "gwaslab-api-and-scripting",
+      "gwaslab-build-and-install",
+      "gwaslab-commondata",
+      "gwaslab-download",
+      "gwaslab-download-reference",
+      "gwaslab-examples-and-tutorials",
+      "gwaslab-fasta",
+      "gwaslab-getting-started",
+      "gwaslab-gtf",
+      "gwaslab-hapmap3",
+      "gwaslab-index",
+      "gwaslab-inferancestry",
+      "gwaslab-inputs-and-modeling",
+      "gwaslab-parallel-hpc",
+      "gwaslab-reference",
+      "gwaslab-reserved-header",
+      "gwaslab-simulation-workflows",
+      "gwaslab-sumstatsobject",
+      "gwaslab-theory-and-methods",
+      "gwaslab-troubleshooting",
+      "gwaslab-updatelogs",
+      "gwaslab-utility-get-lead-novel",
+      "gwaslab-vcf"
+    ],
+    "core_skill_ids": [
+      "gwaslab-examples-and-tutorials",
+      "gwaslab-getting-started",
+      "gwaslab-analysis-and-output",
+      "gwaslab-build-and-install",
+      "gwaslab-simulation-workflows",
+      "gwaslab-inputs-and-modeling"
+    ],
+    "deferred_gaps": [
+      "No prior open-gap entries are recorded yet in skills/.evidence/memory.md; populate concrete gaps after pass-2 generation output review.",
+      "Coverage audit is deferred to pass 3 to quantify which src/gwaslab modules remain unreferenced by topic source maps.",
+      "Optional: evaluate whether docs API pages and changelog-like pages should remain separate skills or be merged into advanced topics."
+    ],
+    "goal": "Generate and refine a docs-first GWASLab skills set with high-signal core coverage, then audit routing and references.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "deterministic routing across tutorial, API, QC/harmonization, visualization, and troubleshooting tasks",
+          "clear escalation rule from docs to source inspection"
+        ],
+        "reason": "Central router is required to keep answers docs-first and route to focused topic skills.",
+        "skill_id": "gwaslab-index",
+        "source_hints": [
+          "docs/index.md",
+          "README.md",
+          "examples/"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "environment setup and package install paths",
+          "minimal end-to-end first analysis flow"
+        ],
+        "reason": "High-frequency onboarding questions depend on install + first-run workflow clarity.",
+        "skill_id": "gwaslab-getting-started",
+        "source_hints": [
+          "README.md",
+          "docs/tutorial_v4.md",
+          "examples/1_main_tutorial"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Sumstats object lifecycle and common operations",
+          "CLI usage and script-level interoperability"
+        ],
+        "reason": "Most operational questions map to Sumstats object APIs, CLI entry points, and scripting workflows.",
+        "skill_id": "gwaslab-api-and-scripting",
+        "source_hints": [
+          "docs/SumstatsObject.md",
+          "src/gwaslab/CLI",
+          "src/gwaslab/io",
+          "src/gwaslab/util"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "standardization and harmonization workflows",
+          "meta-analysis / LDSC / downstream run paths"
+        ],
+        "reason": "Core package value is GWAS summary-statistics QC, harmonization, and downstream analysis pipelines.",
+        "skill_id": "gwaslab-simulation-workflows",
+        "source_hints": [
+          "docs/standardization_workflow.md",
+          "examples/3_standardization",
+          "examples/4_harmonization",
+          "src/gwaslab/qc",
+          "src/gwaslab/downstream"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "mqq/regional/miami plotting workflows and parameter tuning",
+          "data export/report generation patterns"
+        ],
+        "reason": "Visualization and reporting are major user-facing outputs and need stable playbooks.",
+        "skill_id": "gwaslab-analysis-and-output",
+        "source_hints": [
+          "docs/visualization_mqq.md",
+          "docs/visualization_regional.md",
+          "examples/7_visualization",
+          "src/gwaslab/viz",
+          "src/gwaslab/view"
+        ]
+      },
+      {
+        "action": "refresh",
+        "must_cover": [
+          "topic-oriented example selection",
+          "minimal runnable notebook-to-script patterns"
+        ],
+        "reason": "Notebook-heavy examples need compressed, reusable routes instead of one-off walkthroughs.",
+        "skill_id": "gwaslab-examples-and-tutorials",
+        "source_hints": [
+          "examples/",
+          "docs/tutorial_v4.md"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "merge low-signal single-doc topics into a compact routing skill",
+          "preserve links for reference-data and specialized utilities"
+        ],
+        "reason": "Dry-run indicates many one-doc topics; consolidating them prevents routing fragmentation.",
+        "skill_id": "gwaslab-vcf",
+        "source_hints": [
+          "docs/Reference.md",
+          "docs/CommonData.md",
+          "docs/Download_reference.md",
+          "docs/Hapmap3.md",
+          "docs/VCF.md"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "common data-format and harmonization failure modes",
+          "diagnostic checks mapped to automated tests"
+        ],
+        "reason": "Pass 3 should verify practical failure handling and test-backed diagnostics before finalize.",
+        "skill_id": "gwaslab-troubleshooting",
+        "source_hints": [
+          "docs/rules.md",
+          "docs/reserved_header.md",
+          "test/",
+          "src/gwaslab/hm",
+          "src/gwaslab/qc"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "gwaslab-examples-and-tutorials",
+      "gwaslab-advanced-topics",
+      "gwaslab-analysis-and-output",
+      "gwaslab-getting-started",
+      "gwaslab-simulation-workflows",
+      "gwaslab-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab/skills/gwaslab-examples-and-tutorials/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab/skills/gwaslab-advanced-topics/SKILL.md: playbook missing required element containing 'triage questions'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab/skills/gwaslab-advanced-topics/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab/skills/gwaslab-advanced-topics/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab/skills/gwaslab-advanced-topics/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab/skills/gwaslab-analysis-and-output/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab/skills/gwaslab-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab/skills/gwaslab-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gwaslab-gwaslab/skills/gwaslab-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "skill plan target missing from generated skills/: gwaslab-vcf"
+    ],
+    "index_skills": [
+      "gwaslab-index"
+    ],
+    "missing_planned_skills": [
+      "gwaslab-vcf"
+    ],
+    "ok": false,
+    "planned_skill_ids": [
+      "gwaslab-index",
+      "gwaslab-getting-started",
+      "gwaslab-api-and-scripting",
+      "gwaslab-simulation-workflows",
+      "gwaslab-analysis-and-output",
+      "gwaslab-examples-and-tutorials",
+      "gwaslab-vcf",
+      "gwaslab-troubleshooting"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 11,
+    "source_inventory": {},
+    "source_links_total": 96,
+    "topic_skills": 10,
+    "warnings": []
+  }
+}
